@@ -1,10 +1,10 @@
 package org.example.zigzag_conversion;
 
 /**
- * task: <a href="https://leetcode.com/problems/zigzag-conversion/description/">...</a>
- * time complexity: O(N)
- * space complexity: O(N)
- * status: accepted
+ * task: <a href="https://leetcode.com/problems/zigzag-conversion/description/">Zigzag conversion</a><br>
+ * time complexity: {@code O(N)}<br>
+ * space complexity: {@code O(N)}<br>
+ * status: {@code accepted}
  */
 public class ZigzagConversion {
 
