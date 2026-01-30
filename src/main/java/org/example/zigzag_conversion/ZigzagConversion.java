@@ -1,5 +1,11 @@
 package org.example.zigzag_conversion;
 
+/**
+ * task: https://leetcode.com/problems/zigzag-conversion/description/
+ * time complexity: O(N)
+ * space complexity: O(N)
+ * status: accepted
+ */
 public class ZigzagConversion {
 
     public String convert(String s, int numRows) {
