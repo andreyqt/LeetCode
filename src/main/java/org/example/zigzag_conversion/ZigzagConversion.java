@@ -4,7 +4,7 @@ package org.example.zigzag_conversion;
  * task: <a href="https://leetcode.com/problems/zigzag-conversion/description/">Zigzag conversion</a><br>
  * time complexity: {@code O(N)}<br>
  * space complexity: {@code O(N)}<br>
- * status: {@code accepted}
+ * difficulty: {@code medium}
  */
 public class ZigzagConversion {
 
