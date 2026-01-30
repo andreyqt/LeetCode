@@ -12,11 +12,8 @@ public class ZigzagConversion {
         if (numRows == 1) {
             return s;
         }
-
         StringBuilder builder = new StringBuilder();
-
         for (int i = 0; i < numRows; i++) {
-
             if (i == 0 || i == numRows - 1) {
                 for (int j = i; j < s.length(); j = j + (numRows - 1) * 2) {
                     builder.append(s.charAt(j));
@@ -33,11 +30,8 @@ public class ZigzagConversion {
                     }
                     step++;
                 }
-
             }
-
         }
-
         return builder.toString();
     }
 
