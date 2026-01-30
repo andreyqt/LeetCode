@@ -7,7 +7,7 @@ import java.util.List;
  * task: <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters"/>Longest Substring Without Repeating Characters</a><br>
  * time complexity: {@code O(N^2)}<br>
  * space complexity: {@code O(min(n, m))}<br>
- * difficulty: {@code easy}
+ * difficulty: {@code medium}
  */
 public class LSWRC {
 
