@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @ExtendWith(MockitoExtension.class)
 public class BitWiseOrParityTest {
 
@@ -19,6 +21,7 @@ public class BitWiseOrParityTest {
         int[] nums = new int[]{1,2,2,2,4};
         boolean expected = false;
         boolean actual = bitwiseOrParity.isEven(nums);
+        assertEquals(expected, actual);
     }
 
 }
