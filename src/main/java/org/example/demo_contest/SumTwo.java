@@ -13,7 +13,7 @@ public class SumTwo {
         long B = scanner.nextLong();
         scanner.close();
 
-        PrintWriter writer = new PrintWriter(new File("output.txt"));
+        PrintWriter writer = new PrintWriter("output.txt");
         writer.println(A + B);
         writer.close();
     }
