@@ -38,16 +38,18 @@ public class TaskThree {
     }
 
     public static void main(String[] args) throws IOException {
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
+        // Словарь: слово → номер первого контекста, где оно встретилось
         Map<String, Integer> wordToContext = new HashMap<>();
+        // Массив для Union-Find: parent[i] = родитель i-го контекста
         int[] parent = new int[n];
+        // Размеры контекстов
         int[] size = new int[n];
 
         for (int i = 0; i < n; i++) {
-            parent[i] = i;
+            parent[i] = i;  // Изначально каждый контекст сам себе родитель
             size[i] = 0;
         }
 
@@ -60,51 +62,58 @@ public class TaskThree {
             Set<String> currentWords = new HashSet<>(Arrays.asList(words));
             List<Integer> affectedContexts = new ArrayList<>();
 
+            // Находим все контексты, с которыми есть пересечение
             for (String word : currentWords) {
                 if (wordToContext.containsKey(word)) {
-                    int contextId = wordToContext.get(word);
-                    contextCount = find(parent, contextId);
-                    if (!affectedContexts.contains(contextId)) {
-                        affectedContexts.add(contextId);
+                    int ctxId = wordToContext.get(word);
+                    ctxId = find(parent, ctxId);  // Находим корень
+                    if (!affectedContexts.contains(ctxId)) {
+                        affectedContexts.add(ctxId);
                     }
                 }
             }
 
             if (affectedContexts.isEmpty()) {
+                // Новый изолированный контекст
                 for (String word : currentWords) {
                     wordToContext.put(word, contextCount);
                 }
-                size[contextCount] += currentWords.size();
+                size[contextCount] = currentWords.size();
                 contextCount++;
             } else {
-                int mainContext = affectedContexts.get(0);
-                mainContext = find(parent, mainContext);
+                // Объединяем с существующими контекстами
+                int mainCtx = affectedContexts.get(0);
+                mainCtx = find(parent, mainCtx);
 
+                // Объединяем все затронутые контексты с mainCtx
                 for (int j = 1; j < affectedContexts.size(); j++) {
-                    int otherContext = find(parent, affectedContexts.get(j));
-                    if (otherContext != mainContext) {
-                        union(parent, size, mainContext, otherContext);
+                    int otherCtx = find(parent, affectedContexts.get(j));
+                    if (mainCtx != otherCtx) {
+                        union(parent, size, mainCtx, otherCtx);
                     }
                 }
 
-                int root = find(parent, mainContext);
+                // Добавляем новые слова в объединённый контекст
+                int root = find(parent, mainCtx);
                 for (String word : currentWords) {
                     if (!wordToContext.containsKey(word)) {
-                        wordToContext.put(word, contextCount);
+                        wordToContext.put(word, root);
                         size[root]++;
                     }
                 }
             }
         }
 
+        // Подсчитываем количество уникальных контекстов и максимальный размер
         Set<Integer> uniqueRoots = new HashSet<>();
         int maxSize = 0;
+
         for (int i = 0; i < contextCount; i++) {
             int root = find(parent, i);
             uniqueRoots.add(root);
             maxSize = Math.max(maxSize, size[root]);
         }
 
-        System.out.println(maxSize);
+        System.out.println(uniqueRoots.size() + " " + maxSize);
     }
 }
