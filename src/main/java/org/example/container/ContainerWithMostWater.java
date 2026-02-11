@@ -1,8 +1,5 @@
 package org.example.container;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 /**
  * task: <a href="https://leetcode.com/problems/container-with-most-water/">Container with Most Water</a><br>
  * time complexity: {@code O(N)}<br>
