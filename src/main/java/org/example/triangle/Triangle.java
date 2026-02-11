@@ -7,7 +7,6 @@ import java.util.Scanner;
  */
 public class Triangle {
 
-    //input numbers are natural
     public static String isTriangle(int a, int b, int c) {
         if (a >= b + c) {
             return "NO";
