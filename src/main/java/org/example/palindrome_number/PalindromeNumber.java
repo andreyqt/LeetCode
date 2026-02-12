@@ -2,8 +2,6 @@ package org.example.palindrome_number;
 
 /**
  * task: <a href="https://leetcode.com/problems/palindrome-number/">Palindrome Number</a><br>
- * time complexity: {@code O(log_10(n))}<br>
- * space complexity: {@code O(1)}<br>
  * difficulty: {@code easy}
  */
 public class PalindromeNumber {
@@ -28,8 +26,9 @@ public class PalindromeNumber {
         return true;
     }
 
-    /*
-    this one is better
+    /**
+     * time complexity: {@code O(log_10(n))}<br>
+     * space complexity: {@code O(1)}<br>
      */
     public boolean isPalindrome2(int x) {
         if (x < 0 || (x % 10 == 0 && x != 0)) {
