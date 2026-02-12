@@ -2,13 +2,14 @@ package org.example.container;
 
 /**
  * task: <a href="https://leetcode.com/problems/container-with-most-water/">Container with Most Water</a><br>
- * time complexity: {@code O(N)}<br>
- * space complexity: {@code O(1)}<br>
  * difficulty: {@code medium}
  */
 public class ContainerWithMostWater {
 
-    //two pointers
+    /**
+     * time complexity: {@code O(N)}<br>
+     * space complexity: {@code O(1)}<br>
+     */
     public int maxArea(int[] height) {
         int maxArea = 0;
         int left = 0;
