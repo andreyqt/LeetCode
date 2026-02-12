@@ -35,4 +35,36 @@ public class ZigzagConversion {
         return builder.toString();
     }
 
+    public String convert2(String s, int numRows) {
+        if (numRows == 1) {
+            return s;
+        }
+
+        StringBuilder[] nums = new StringBuilder[numRows];
+        for (int i = 0; i < numRows; i++) {
+            nums[i] = new StringBuilder();
+        }
+
+        int currentRow = 0;
+        boolean goingDown = false;
+
+        for (char c : s.toCharArray()) {
+            nums[currentRow].append(c);
+            if (currentRow == 0 || currentRow == numRows - 1) {
+                goingDown = !goingDown;
+            }
+            if (goingDown) {
+                currentRow++;
+            } else {
+                currentRow--;
+            }
+        }
+
+        StringBuilder result = new StringBuilder();
+        for (StringBuilder num : nums) {
+            result.append(num);
+        }
+        return result.toString();
+    }
+
 }
