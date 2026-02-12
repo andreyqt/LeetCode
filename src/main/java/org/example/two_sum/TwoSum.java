@@ -9,7 +9,7 @@ import java.util.Map;
  */
 public class TwoSum {
 
-    /*
+    /**
      * time complexity: {@code O(N^2)}<br>
      * space complexity: {@code O(1)}<br>
      * brute force
@@ -27,7 +27,7 @@ public class TwoSum {
         return sol;
     }
 
-    /*
+    /**
      * time complexity: {@code O(N)}<br>
      * space complexity: {@code O(N)}<br>
      * the best
@@ -44,11 +44,10 @@ public class TwoSum {
         return new int[]{};
     }
 
-    /*
+    /**
      * time complexity: {@code O(N)}<br>
      * space complexity: {@code O(1)}<br>
      * for sorted array
-     *
      */
     public int[] twoSum3(int[] nums, int target) {
         int left = 0;
