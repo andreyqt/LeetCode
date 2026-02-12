@@ -27,4 +27,13 @@ public class QuickSort {
         return i+1;
     }
 
+    public static void main(String[] args) {
+        QuickSort quickSort = new QuickSort();
+        int[] arr = {1,5,9,2,3,4,1,3,9,11,5,4};
+        quickSort.quickSort(arr, 0, arr.length - 1);
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+    }
+
 }
