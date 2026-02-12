@@ -3,11 +3,15 @@ package org.example.sort;
 import java.util.Arrays;
 
 /**
- * task: <a href="https://leetcode.com/problems/squares-of-a-sorted-array/description/">https://leetcode.com/problems/squares-of-a-sorted-array/description/</a><br>
+ * task: <a href="https://leetcode.com/problems/squares-of-a-sorted-array/description/">Squares of sorted array</a><br>
  * difficulty: {@code easy}
  */
 public class SquaresOfSortedArray {
 
+    /**
+     * time complexity: {@code O(N*log(N))}<br>
+     * space complexity: {@code O(N)}<br>
+     */
     public int[] squaresOfSortedArray(int[] nums) {
         return Arrays.stream(nums).map(num -> num * num).sorted().toArray();
     }
