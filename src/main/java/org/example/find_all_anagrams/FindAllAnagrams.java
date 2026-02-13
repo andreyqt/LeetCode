@@ -2,12 +2,12 @@ package org.example.find_all_anagrams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
  * task: <a href="https://leetcode.com/problems/find-all-anagrams-in-a-string/">Find All Anagrams in a String</a><br>
+ * time complexity: {@code O(N)}
+ * space complexity: {@code O(1)}
  * difficulty: {@code medium}
  */
 public class FindAllAnagrams {
