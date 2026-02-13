@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @ExtendWith(MockitoExtension.class)
 public class SquaresOfSortedArrayTest {
 
@@ -17,9 +19,10 @@ public class SquaresOfSortedArrayTest {
     @Test
     public void squaresOfSortedArray2Test() {
         int[] input = new int[]{-5, -4, -3, -2, 0, 1, 2, 3};
-        int[] output = squaresOfSortedArray.squaresOfSortedArray2(input);
-        for (int j : output) {
-            System.out.print(j + " ");
+        int[] expected = new int[]{0,1,4,4,9,9,16,25};
+        int[] actual = squaresOfSortedArray.squaresOfSortedArray2(input);
+        for (int j = 0; j < actual.length; j++) {
+            assertEquals(expected[j], actual[j]);
         }
     }
 
