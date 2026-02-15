@@ -1,7 +1,5 @@
 package org.example.single_number;
 
-import java.util.Arrays;
-
 /**
  * task: <a href="https://leetcode.com/problems/single-number/"/>Single Integer</a><br>
  * time complexity: {@code O(N)}
