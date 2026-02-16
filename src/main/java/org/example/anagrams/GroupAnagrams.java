@@ -6,6 +6,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * task: <a href="https://leetcode.com/problems/group-anagrams/description/">Group Anagrams</a><br>
+ * time complexity: {@code O(N*k*log(k))}<br>
+ * space complexity: {@code O(n*k)}<br>
+ * difficulty: {@code medium}
+ */
 public class GroupAnagrams {
 
     public List<List<String>> groupAnagrams(String[] strings) {
