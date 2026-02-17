@@ -15,7 +15,7 @@ public class SlidingWindowMedian {
      * time complexity: O(N*log(k))
      * space complexity: O(k)
      */
-    public double[] medianSlidingWindow2(int[] nums, int k) {
+    public double[] medianSlidingWindow(int[] nums, int k) {
         int n = nums.length;
         double[] res = new double[n - k + 1];
 
@@ -23,14 +23,14 @@ public class SlidingWindowMedian {
             if (nums[a] != nums[b]) {
                 return Integer.compare(nums[b], nums[a]);
             }
-            return Integer.compare(nums[a], nums[b]);
+            return Integer.compare(a, b);
         });
 
         TreeSet<Integer> right = new TreeSet<>((a, b) -> {
             if (nums[a] != nums[b]) {
                 return Integer.compare(nums[a], nums[b]);
             }
-            return Integer.compare(nums[a], nums[b]);
+            return Integer.compare(a, b);
         });
 
         for (int i = 0; i < n; i++) {
@@ -51,11 +51,11 @@ public class SlidingWindowMedian {
             balance(left, right);
             if (i >= k - 1) {
                 if (left.size() > right.size()) {
-                    res[i - k - 1] = (double) left.first();
+                    res[i - k + 1] = nums[left.first()];
                 } else {
                     long a = nums[left.first()];
                     long b = nums[right.first()];
-                    res[i - k - 1] = (a + b) / 2.0;
+                    res[i - k + 1] = (a + b) / 2.0;
                 }
             }
 
@@ -81,7 +81,7 @@ public class SlidingWindowMedian {
      * time complexity: O(N*k*log(k))
      * space complexity: O(N*k)
      */
-    public double[] medianSlidingWindow(int[] nums, int k) {
+    public double[] medianSlidingWindow2(int[] nums, int k) {
         int left = 0, right = k - 1;
         double[] res = new double[nums.length - k + 1];
         boolean isOdd = (k % 2 == 1);
