@@ -5,8 +5,6 @@ import java.util.TreeSet;
 
 /**
  * task: <a href="https://leetcode.com/problems/sliding-window-median/description/">Sliding Window Median</a><br>
- * time complexity: {@code O()}
- * space complexity: {@code O()}
  * difficulty: {@code medium}
  */
 public class SlidingWindowMedian {
