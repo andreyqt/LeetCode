@@ -1,4 +1,4 @@
-package org.example.add_two_numbers;
+package org.example.nodes;
 
 /**
  * task: <a href="https://leetcode.com/problems/add-two-numbers/description/">Add Two Numbers</a><br>

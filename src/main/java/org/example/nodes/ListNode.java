@@ -1,4 +1,4 @@
-package org.example.add_two_numbers;
+package org.example.nodes;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

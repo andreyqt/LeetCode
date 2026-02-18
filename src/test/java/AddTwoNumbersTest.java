@@ -1,5 +1,5 @@
-import org.example.add_two_numbers.AddTwoNumbers;
-import org.example.add_two_numbers.ListNode;
+import org.example.nodes.AddTwoNumbers;
+import org.example.nodes.ListNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
