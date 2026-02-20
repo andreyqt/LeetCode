@@ -1,0 +1,18 @@
+package org.example.tree;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+public class MyTreeNode {
+
+    public int val;
+    public MyTreeNode left;
+    public MyTreeNode right;
+
+    public MyTreeNode(int val) {
+        this.val = val;
+    }
+
+}

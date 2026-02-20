@@ -1,4 +1,4 @@
-package org.example.string_tasks;
+package org.example.anagrams;
 
 import java.util.ArrayList;
 import java.util.Arrays;

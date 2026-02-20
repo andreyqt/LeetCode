@@ -1,4 +1,4 @@
-import org.example.string_tasks.FindAllAnagrams;
+import org.example.anagrams.FindAllAnagrams;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
