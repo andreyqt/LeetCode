@@ -7,7 +7,6 @@ import java.util.Scanner;
  */
 public class Conditioner {
 
-    //first arg has the format of "t1 t2", where t1 is the current t, and t2 is desired t
     public static int estimateTemperature(String temperatures, String mode) {
         String[] temps = temperatures.split("\\s+");
         int t1 = Integer.parseInt(temps[0]);
