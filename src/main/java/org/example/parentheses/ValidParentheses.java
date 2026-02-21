@@ -1,4 +1,4 @@
-package org.example.stack_tasks;
+package org.example.parentheses;
 
 import java.util.Stack;
 
