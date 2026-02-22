@@ -1,4 +1,4 @@
-import org.example.subarray_equals_k.SubArrayEqualsK;
+import org.example.sums.SubArrayEqualsK;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
