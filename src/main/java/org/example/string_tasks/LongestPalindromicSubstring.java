@@ -1,4 +1,4 @@
-package org.example.longest_palindromic_substring;
+package org.example.string_tasks;
 
 /**
  * task: <a href="https://leetcode.com/problems/longest-palindromic-substring/description/"/>Longest Palindromic Substring</a><br>

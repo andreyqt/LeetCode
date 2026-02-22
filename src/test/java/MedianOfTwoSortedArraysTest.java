@@ -1,4 +1,4 @@
-import org.example.median_of_two_sorted_arrays.MedianOfTwoSortedArrays;
+import org.example.sort.MedianOfTwoSortedArrays;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package org.example.median_of_two_sorted_arrays;
+package org.example.sort;
 
 /**
  * task: <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/"/>Median of Two Sorted Arrays</a><br>

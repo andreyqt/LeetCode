@@ -1,4 +1,4 @@
-import org.example.longest_palindromic_substring.LongestPalindromicSubstring;
+import org.example.string_tasks.LongestPalindromicSubstring;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
