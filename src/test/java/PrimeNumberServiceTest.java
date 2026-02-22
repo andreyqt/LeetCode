@@ -1,4 +1,4 @@
-import org.example.prime_numbers.PrimeNumberService;
+import org.example.integer.PrimeNumberService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package org.example.integer_to_roman;
+package org.example.integer;
 
 /**
  * task: <a href="https://leetcode.com/problems/integer-to-roman/">Integer to Roman</a><br>

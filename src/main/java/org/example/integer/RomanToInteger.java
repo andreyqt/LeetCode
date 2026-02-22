@@ -1,4 +1,4 @@
-package org.example.integer_to_roman;
+package org.example.integer;
 
 import java.util.HashMap;
 import java.util.Map;

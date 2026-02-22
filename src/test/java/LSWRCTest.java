@@ -1,4 +1,4 @@
-import org.example.LSWRC.LSWRC;
+import org.example.string_tasks.LSWRC;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

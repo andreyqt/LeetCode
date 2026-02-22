@@ -1,4 +1,4 @@
-import org.example.atoi.Atoi;
+import org.example.integer.Atoi;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,4 +1,4 @@
-import org.example.single_number.SingleInteger;
+import org.example.xor.SingleInteger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

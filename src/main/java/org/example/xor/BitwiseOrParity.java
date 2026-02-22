@@ -1,4 +1,4 @@
-package org.example.bitwise_parity;
+package org.example.xor;
 
 /**
  * task: from interview<br>

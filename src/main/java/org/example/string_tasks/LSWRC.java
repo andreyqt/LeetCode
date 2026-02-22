@@ -1,4 +1,4 @@
-package org.example.LSWRC;
+package org.example.string_tasks;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package org.example.atoi;
+package org.example.integer;
 
 /**
  * task: <a href="https://leetcode.com/problems/string-to-integer-atoi/description/">atoi</a><br>

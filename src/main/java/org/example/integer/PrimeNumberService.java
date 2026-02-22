@@ -1,11 +1,9 @@
-package org.example.prime_numbers;
+package org.example.integer;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 /**
  * task: from interview<br>

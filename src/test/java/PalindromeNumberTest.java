@@ -1,4 +1,4 @@
-import org.example.palindrome_number.PalindromeNumber;
+import org.example.integer.PalindromeNumber;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

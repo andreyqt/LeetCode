@@ -1,4 +1,4 @@
-package org.example.palindrome_number;
+package org.example.integer;
 
 /**
  * task: <a href="https://leetcode.com/problems/palindrome-number/">Palindrome Number</a><br>

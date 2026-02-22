@@ -1,4 +1,4 @@
-package org.example.single_number;
+package org.example.xor;
 
 /**
  * task: <a href="https://leetcode.com/problems/single-number/"/>Single Integer</a><br>

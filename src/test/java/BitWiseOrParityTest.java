@@ -1,4 +1,4 @@
-import org.example.bitwise_parity.BitwiseOrParity;
+import org.example.xor.BitwiseOrParity;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

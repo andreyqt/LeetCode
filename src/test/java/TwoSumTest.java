@@ -1,4 +1,4 @@
-import org.example.two_sum.TwoSum;
+import org.example.sums.TwoSum;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package org.example.reverse_integer;
+package org.example.integer;
 
 /**
  * task: <a href="https://leetcode.com/problems/reverse-integer/description/"/>Reverse Integer</a><br>

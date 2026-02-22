@@ -1,4 +1,4 @@
-import org.example.reverse_integer.ReverseInteger;
+import org.example.integer.ReverseInteger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

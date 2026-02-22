@@ -1,4 +1,4 @@
-import org.example.integer_to_roman.IntegerToRoman;
+import org.example.integer.IntegerToRoman;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
