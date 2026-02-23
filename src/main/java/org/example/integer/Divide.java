@@ -41,7 +41,6 @@ public class Divide {
                 return (int) result;
             }
         }
-
     }
 
 }
