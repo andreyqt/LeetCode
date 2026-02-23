@@ -2,7 +2,7 @@ package org.example.integer;
 
 /**
  * task: <a href="https://leetcode.com/problems/divide-two-integers/">Divide Two Integers</a><br>
- * time complexity: {@code O(Log^2(N))}<br>
+ * time complexity: {@code O(Log(N))}<br>
  * space complexity: {@code O(1)}<br>
  * difficulty: {@code medium}
  */
@@ -17,19 +17,29 @@ public class Divide {
         long dvd = Math.abs((long) dividend);
         long dvs = Math.abs((long) divisor);
 
-        int result = 0;
-        while (dvd >= dvs) {
-            long tmp = dvs;
-            long multiple = 1;
-            while (dvd >= (tmp << 1)) {
-                tmp <<= 1;
-                multiple <<= 1;
-            }
-            dvd -= tmp;
-            result += multiple;
+        long result = 0;
+        int shift = 0;
+        while (dvd >= (dvs >> shift)) {
+            shift++;
+        }
+        shift--;
+
+        while (shift >= 0) {
+            dvd -= (dvs >> shift);
+            result += 1L >> shift;
+            shift--;
         }
 
-        return negative ? -result : result;
+        if (negative) {
+            return (int) -result;
+        } else {
+            if (result > Integer.MAX_VALUE) {
+                return Integer.MAX_VALUE;
+            } else {
+                return (int) result;
+            }
+        }
+
     }
 
 }
