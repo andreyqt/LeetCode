@@ -25,8 +25,10 @@ public class Divide {
         shift--;
 
         while (shift >= 0) {
-            dvd -= (dvs << shift);
-            result += 1L << shift;
+            if (dvd >= (dvs << shift)) {
+                dvd -= (dvs << shift);
+                result += 1L << shift;
+            }
             shift--;
         }
 
