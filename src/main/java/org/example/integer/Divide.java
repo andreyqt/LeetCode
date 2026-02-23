@@ -19,14 +19,14 @@ public class Divide {
 
         long result = 0;
         int shift = 0;
-        while (dvd >= (dvs >> shift)) {
+        while (dvd >= (dvs << shift)) {
             shift++;
         }
         shift--;
 
         while (shift >= 0) {
-            dvd -= (dvs >> shift);
-            result += 1L >> shift;
+            dvd -= (dvs << shift);
+            result += 1L << shift;
             shift--;
         }
 
