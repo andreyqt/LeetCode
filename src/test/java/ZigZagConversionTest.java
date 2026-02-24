@@ -1,4 +1,4 @@
-import org.example.zigzag_conversion.ZigzagConversion;
+import org.example.string_tasks.ZigzagConversion;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

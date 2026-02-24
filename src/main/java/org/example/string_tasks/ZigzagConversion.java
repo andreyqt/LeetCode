@@ -1,4 +1,4 @@
-package org.example.zigzag_conversion;
+package org.example.string_tasks;
 
 /**
  * task: <a href="https://leetcode.com/problems/zigzag-conversion/description/">Zigzag conversion</a><br>
