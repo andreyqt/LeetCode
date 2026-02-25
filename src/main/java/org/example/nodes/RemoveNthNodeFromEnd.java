@@ -1,7 +1,7 @@
 package org.example.nodes;
 
 /**
- * task: <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">Remove Nth Node From End of List</a><br>=
+ * task: <a href="https://leetcode.com/problems/remove-nth-node-from-end-of-list/">RemoveElement Nth Node From End of List</a><br>=
  * time complexity: {@code O(N)}
  * space complexity: {@code O(1)}
  * difficulty: {@code medium}

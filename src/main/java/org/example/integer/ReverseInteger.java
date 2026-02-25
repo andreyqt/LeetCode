@@ -1,7 +1,7 @@
 package org.example.integer;
 
 /**
- * task: <a href="https://leetcode.com/problems/reverse-integer/description/"/>Reverse Integer</a><br>
+ * task: <a href="https://leetcode.com/problems/reverse-integer/description/">Reverse Integer</a><br>
  * difficulty: {@code medium}
  */
 public class ReverseInteger {
