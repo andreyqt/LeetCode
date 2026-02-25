@@ -1,7 +1,9 @@
 package org.example.integer;
 
 /**
- * task: <a href="https://leetcode.com/problems/remove-element/description/>Remove Element</a><br>
+ * task: <a href="https://leetcode.com/problems/remove-element/description/">Remove Element</a><br>
+ * time complexity: {@code O(N)}<br>
+ * space complexity: {@code O(1)}<br>
  * difficulty: {@code easy}
  */
 public class RemoveElement {
