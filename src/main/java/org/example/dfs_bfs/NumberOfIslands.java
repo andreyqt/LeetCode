@@ -5,8 +5,8 @@ import java.util.Queue;
 
 /**
  * task: <a href="https://leetcode.com/problems/number-of-islands/description/">Number of Islands</a><br>
- * time complexity: {@code O(M*N)}
- * space complexity: {@code O(M*N)}
+ * time complexity: {@code O(M*N)}<br>
+ * space complexity: {@code O(M*N)}<br>
  * difficulty: {@code medium}
  */
 public class NumberOfIslands {

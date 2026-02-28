@@ -9,8 +9,8 @@ import java.util.Set;
 
 /**
  * task: <a href="https://leetcode.com/problems/remove-invalid-parentheses/description/">RemoveElement Invalid Parentheses</a><br>
- * time complexity: {@code O(2^N)}
- * space complexity: {@code O(2^N)}
+ * time complexity: {@code O(2^N)}<br>
+ * space complexity: {@code O(2^N)}<br>
  * difficulty: {@code hard}
  */
 public class InvalidParentheses {
