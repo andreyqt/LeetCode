@@ -7,8 +7,8 @@ import java.util.List;
 
 /**
  * task: <a href="https://leetcode.com/problems/merge-intervals/description/">Merge Intervals</a><br>
- * time complexity: {@code O(N*log(N))}
- * space complexity: {@code O(N)}
+ * time complexity: {@code O(N*log(N))}<br>
+ * space complexity: {@code O(N)}<br>
  * difficulty: {@code medium}
  */
 public class MergeIntervals {
