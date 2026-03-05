@@ -7,8 +7,8 @@ import java.util.Map;
 
 /**
  * task: <a href="https://leetcode.com/problems/3sum-closest/description/">Letter Combinations of a Phone Number</a><br>=
- * time complexity: {@code O(N * 4^N)}
- * space complexity: {@code O(N * 4^N)}
+ * time complexity: {@code O(N * 4^N)}<br>
+ * space complexity: {@code O(N * 4^N)}<br>
  * difficulty: {@code medium}
  */
 public class PhoneNumber {
