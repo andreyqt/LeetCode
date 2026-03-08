@@ -2,8 +2,8 @@ package org.example.string_tasks;
 
 /**
  * task: <a href="https://leetcode.com/problems/find-unique-binary-string/">Find Unique Binary String</a><br>
- * time complexity: {@code O()}<br>
- * space complexity: {@code O()}<br>
+ * time complexity: {@code O(N)}<br>
+ * space complexity: {@code O(N)}<br>
  * difficulty: {@code medium}
  */
 public class FindUniqueBinString {
