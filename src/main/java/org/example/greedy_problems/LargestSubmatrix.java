@@ -6,7 +6,7 @@ import java.util.Arrays;
  * task: <a href="https://leetcode.com/problems/largest-submatrix-with-rearrangements/">Largest Submatrix With Rearrangements</a><br>
  * time complexity: {@code O(rows * cols * Log(cols)}
  * space complexity: {@code O(cols)}
- * difficulty: {@code easy}
+ * difficulty: {@code medium}
  */
 public class LargestSubmatrix {
 
