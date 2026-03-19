@@ -2,8 +2,8 @@ package org.example.matrix;
 
 /**
  * task: <a href="https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/">Count Submatrices with Top-Left Element and Sum Less Than k</a><br>
- * time complexity: {@code O()}<br>
- * space complexity: {@code O()}<br>
+ * time complexity: {@code O(n * m)}<br>
+ * space complexity: {@code O(m * n)}<br>
  * difficulty: {@code medium}
  */
 public class CountSubK {
