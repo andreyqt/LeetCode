@@ -5,8 +5,8 @@ import java.util.NoSuchElementException;
 
 /**
  * task: <a href="https://leetcode.com/problems/peeking-iterator/description/">Peeking Iterator</a><br>
- * time complexity: {@code O(1)} for all operations
- * space complexity: {@code O(1)}
+ * time complexity: {@code O(1)} for all operations<br>
+ * space complexity: {@code O(1)}<br>
  * difficulty: {@code medium}
  */
 public class PeekingIterator implements Iterator<Integer> {
