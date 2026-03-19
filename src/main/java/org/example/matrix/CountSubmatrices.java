@@ -2,8 +2,8 @@ package org.example.matrix;
 
 /**
  * task: <a href="https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y">Count Submatrices With Equal Frequency of X and Y</a><br>
- * time complexity: {@code O()} for all operations<br>
- * space complexity: {@code O()}<br>
+ * time complexity: {@code O(n * m)} for all operations<br>
+ * space complexity: {@code O(n * m)}<br>
  * difficulty: {@code medium}
  */
 public class CountSubmatrices {
