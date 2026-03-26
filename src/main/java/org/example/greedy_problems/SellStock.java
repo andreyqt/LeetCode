@@ -4,8 +4,8 @@ public class SellStock {
 
     /**
      * task: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and Sell Stock</a><br>
-     * time complexity: {@code O(N)}
-     * space complexity: {@code O(1)}
+     * time complexity: {@code O(N)}<br>
+     * space complexity: {@code O(1)}<br>
      * difficulty: {@code easy}
      */
     public int maxProfit(int[] prices) {
