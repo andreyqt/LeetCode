@@ -11,8 +11,8 @@ import java.util.Queue;
 
 /**
  * task: <a href="https://coderun.yandex.ru/selections/yandex-interview/problems/interesting-journey">Interesting Journey</a><br>
- * time complexity: {@code O()}
- * space complexity: {@code O()}
+ * time complexity: {@code O(N^2)}
+ * space complexity: {@code O(N)}
  * difficulty: {@code easy}
  */
 public class JourneyYdx {
